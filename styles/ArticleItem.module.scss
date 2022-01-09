@@ -1,0 +1,10 @@
+.card {
+  max-width: 100%;
+  margin-bottom: 20px;
+  @media (min-width:640px) {
+    max-width: 48%;
+  }
+  @media (min-width:1000px) {
+    max-width: 31%;
+  }
+}
